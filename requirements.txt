@@ -17,7 +17,7 @@ scikit-learn==0.22
 xgboost==1.0.2
 
 # Optional: the transformers library is only using in chapter 16
-transformers==2.8.0
+#transformers==2.8.0
 
 ##### TensorFlow-related packages
 
@@ -28,35 +28,35 @@ transformers==2.8.0
 # you must install CUDA, cuDNN and more: see tensorflow.org for the detailed
 # installation instructions.
 
-tensorflow==2.1.0
+#tensorflow==2.1.0
 
 # Optional: the TF Serving API library is just needed for chapter 19.
-tensorflow-serving-api==2.1.0
+#tensorflow-serving-api==2.1.0
 #tensorflow-serving-api-gpu==2.1.0
 
-tensorboard==2.1.1
-tensorboard-plugin-profile==2.2.0
-tensorflow-datasets==2.1.0
-tensorflow-hub==0.7.0
-tensorflow-probability==0.9.0
+#tensorboard==2.1.1
+#tensorboard-plugin-profile==2.2.0
+#tensorflow-datasets==2.1.0
+#tensorflow-hub==0.7.0
+#tensorflow-probability==0.9.0
 
 # Optional: only used in chapter 13.
 # NOT AVAILABLE ON WINDOWS
-tfx==0.21.2
+#tfx==0.21.2
 
 # Optional: only used in chapter 16.
 # NOT AVAILABLE ON WINDOWS
-tensorflow-addons==0.8.3
+#tensorflow-addons==0.8.3
 
 ##### Reinforcement Learning library (chapter 18)
 
 # There are a few dependencies you need to install first, check out:
 # https://github.com/openai/gym#installing-everything
-gym[atari]==0.17.1
+#gym[atari]==0.17.1
 # On Windows, install atari_py using:
 # pip install --no-index -f https://github.com/Kojoley/atari-py/releases atari_py
 
-tf-agents==0.3.0
+#tf-agents==0.3.0
 
 
 ##### Image manipulation
@@ -68,7 +68,7 @@ pydot==1.4.1
 opencv-python==4.2.0.32
 pyglet==1.5.0
 
-#pyvirtualdisplay # needed in chapter 16, if on a headless server
+pyvirtualdisplay # needed in chapter 16, if on a headless server
                   # (i.e., without screen, e.g., Colab or VM)
 
 
@@ -93,8 +93,8 @@ nltk==3.4.5
 urlextract==0.14.0
 
 # Optional: these libraries are only used in chapter 16
-spacy==2.2.4
-ftfy==5.7
+#spacy==2.2.4
+#ftfy==5.7
 
 # Optional: tqdm displays nice progress bars, ipywidgets for tqdm's notebook support
 tqdm==4.43.0
