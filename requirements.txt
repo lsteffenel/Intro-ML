@@ -8,6 +8,7 @@ matplotlib==3.1.3
 numpy==1.18.1
 pandas==1.0.3
 scipy==1.4.1
+seaborn
 
 
 ##### Machine Learning packages
